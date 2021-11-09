@@ -48,15 +48,24 @@ li a:hover {
          
 
 section#leftColumn {background-color: rgb(210, 210, 210);
-        font-size: 1.5em;
+        font-size: 1.4em;
     clear: left;
     float: left;
     width: 50%;
     height: 470px;
     margin-left:auto;
     margin-right: auto;
-    text-align: center;
-    }
+    text-align: center;}
+
+
+img {
+  display: block;
+  margin-left: 1px;
+  margin-right: 1px;
+    vertical-align:center; margin:50px 50px
+    
+}
+    
 
 section#rightColumn {background-color: darkslategrey;
     clear: right;
@@ -67,12 +76,7 @@ section#rightColumn {background-color: darkslategrey;
     
     }
 
-img {
-  display: block;
-  margin-left: 1px;
-  margin-right: 1px;
-    vertical-align:center; margin:50px 50px
-}
+
 footer { 
   background-color: ghostwhite;
   color: black;
